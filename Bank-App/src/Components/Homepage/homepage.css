@@ -1,0 +1,78 @@
+.formm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the form horizontally */
+    margin-top: 50px; /* adjust as needed */
+  }
+  
+  .formm label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .formm input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .formm input[type="text"]:focus {
+    outline: none;
+    border-color: #1ebba3;
+  }
+  
+  .submit-button {
+    background-color: #1ebba3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .card .id {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .card .customerName,
+  .card .accountNumber,
+  .card .accountType {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .card .delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .number{
+    width: 100%;
+  }
+  
